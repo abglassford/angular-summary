@@ -5,9 +5,11 @@
   'use strict';
 
   angular
-    .module('myApp', [
-      'myApp.config',
-      'myApp.components.main'
+    .module('CardDrawApp', [
+      'ngRoute',
+      'CardDrawApp.config',
+      'CardDrawApp.components.hand',
+      'CardDrawApp.components.deck'
     ]);
 
 })();
